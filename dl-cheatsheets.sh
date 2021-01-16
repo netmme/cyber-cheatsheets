@@ -7,6 +7,7 @@ else
     destination_directory=$1
 fi
 
+echo "Organizing the files..."
 mkdir -p ${destination_directory}
 rm -rf ${destination_directory}/*
 mkdir -p ${destination_directory}/cheatsheets/sans
@@ -19,10 +20,8 @@ git clone https://github.com/BushidoUK/Open-source-tools-for-CTI
 git clone https://github.com/jivoi/awesome-osint
 git clone https://github.com/megadose/holehe
 
-echo "Organizing cheatsheets..."
-cd cheatsheets
-
 echo "Downloading cheatsheets..."
+cd cheatsheets
 wget -i misc.list
 
 # Owasp cheatsheets 
