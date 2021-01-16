@@ -20,7 +20,7 @@ Some repositories which can be usefull in an informative way.
 Downloading cheatsheets from here and there.
 
 #### Sans
-Downloading the cheatsheets from two official list plus some missing ones.
+Downloading the cheatsheets from two official lists plus some missing ones.
 
 #### Owasp
 Downloading the prebuild site.
