@@ -29,3 +29,5 @@ Downloading the prebuild site.
 Add an option to remove .list if wanted
 
 Add an option to not run a scan if wanted
+
+Rename ugly sans files
